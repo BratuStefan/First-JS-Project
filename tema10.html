@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="CSS/main.css" />
+		<script
+			src="https://kit.fontawesome.com/eaf2a4ec55.js"
+			crossorigin="anonymous"
+		></script>
+		<title>Tema 10</title>
+	</head>
+	<body>
+		<div class="lightBulb">
+			<p>
+				<i class="fa-solid fa-lightbulb"></i> Click Light Bulb !
+				<i class="fa-regular fa-lightbulb"></i>
+			</p>
+			<img
+				src="images/light_bulb_off.png"
+				alt="light_bulb_off"
+				onclick="offON()"
+				class="imgOFF"
+			/>
+		</div>
+		<div class="game">
+			<p>
+				<i class="fa-solid fa-hand-back-fist"></i
+				><i class="fa-solid fa-hand"></i
+				><i class="fa-solid fa-hand-scissors"></i> Game
+			</p>
+		</div>
+		<div class="rock_paper_scissors">
+			<p>Click An Image!</p>
+			<img src="images/rock.svg" alt="rock" onclick="apasaimagine(0)" />
+			<img src="images/paper.svg" alt="paper" onclick="apasaimagine(1)" />
+			<img src="images/scissors.svg" alt="scissors" onclick="apasaimagine(2)" />
+			<div class="computer_player"></div>
+		</div>
+
+		<script src="JavaScript/main.js"></script>
+	</body>
+</html>
